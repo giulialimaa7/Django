@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes {{object.nome}}</title>
+</head>
+<body>
+    <h1> {{ object.nome }} </h1>
+    <a href="/produto/{{ object.id }}/atualizar/">Editar</a> 
+    <br>
+    <a href="/produto/{{ object.id }}/apagar/">Apagar</a> 
+    <p>Id: {{ object.id }} </p>
+    <p>Marca: {{ object.marca }} </p>
+    <p>Preço: <strong> {{ object.preco }} </strong> </p>
+    <a href="/produto/lista/">Voltar</a>
+</body>
+</html>

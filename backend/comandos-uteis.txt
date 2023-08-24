@@ -1,0 +1,6 @@
+django-admin startrpoject projeto . - cria um projeto do 0
+python manage.py runserver - roda o servidor
+python manage.py createsuperuser - cria usuário admin
+python manage.py startapp produto - cria a aplicação "produto"
+python manage.py makemigrations - informa pro django que a tabela foi criada
+python manage migrate - criar as tabelas no banco de dados
